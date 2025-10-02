@@ -1,7 +1,6 @@
 # netdata-docker-monitor
 
 #### Netdata Docker Monitoring
-#### Monitor your system and application performance in real time using **Netdata** with Docker.
 ---
 ### Prerequisites
 
