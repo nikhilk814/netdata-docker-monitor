@@ -1,10 +1,10 @@
 # netdata-docker-monitor
 Netdata Docker setup
 
-# Netdata Docker Monitoring
+### Netdata Docker Monitoring
 Monitor your system and application performance in real time using **Netdata** with Docker.
 ---
-## Prerequisites
+### Prerequisites
 
 - **Docker** installed on your system.
 - A CentOS VM or Linux host.
@@ -21,7 +21,7 @@ You should see the Docker version displayed.
 
 ---
 
-## ✅ Step 2: Run Netdata Container
+## Step 2: Run Netdata Container
 
 Start Netdata in Docker with the following command:
 
@@ -40,7 +40,7 @@ This will:
 * Expose the dashboard on port `19999`.
 ---
 
-## ✅ Step 3: Verify Container Status
+## Step 3: Verify Container Status
 
 Check that the Netdata container is running:
 
@@ -52,7 +52,7 @@ You should see a container named `netdata` in the list.
 
 ---
 
-## ✅ Step 4: Access the Dashboard
+## Step 4: Access the Dashboard
 
 1. Open a web browser on your host machine.
 2. Enter the VM’s IP address with port `19999`:
@@ -67,7 +67,7 @@ You will see the Netdata real-time dashboard.
 
 ---
 
-## ✅ Step 5: Access Netdata Logs
+## Step 5: Access Netdata Logs
 
 To check for errors or warnings:
 
@@ -84,7 +84,7 @@ cat /var/log/netdata/error.log
 ```
 ---
 
-## ✅ Step 6: Enable Docker Monitoring
+## Step 6: Enable Docker Monitoring
 
 To monitor Docker containers’ metrics, Netdata needs access to the Docker socket:
 
@@ -120,7 +120,7 @@ Now your containers’ **CPU, memory, network, and disk I/O metrics** will appea
 
 ---
 
-## ✅ Step 7: Access Dashboard with Docker Stats
+## Step 7: Access Dashboard with Docker Stats
 
 Open your browser:
 
