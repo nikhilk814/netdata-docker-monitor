@@ -133,3 +133,36 @@ Scroll down to view live stats for **Docker Containers** alongside system metric
 
 ---
 
+✅ Netdata Interview Questions & Answers
+
+1. What does Netdata monitor?
+Netdata monitors system performance metrics like CPU, memory, disk, network, processes, and also application metrics such as MySQL, Nginx, Docker containers, and more.
+
+2. How do you view real-time metrics?
+Through the Netdata web dashboard, accessible on port 19999 of the host/VM.
+
+3. What is a collector?
+A collector is a module in Netdata that gathers metrics from the system or applications (e.g., CPU, disk I/O, MySQL).
+
+4. How is Netdata different from Prometheus?
+Netdata focuses on real-time monitoring with visual dashboards, while Prometheus is time-series database-oriented, mainly for long-term metric storage and alerting.
+
+5. What are some performance KPIs to watch?
+CPU usage
+Memory usage
+Disk I/O
+Network traffic
+Process load
+Docker container stats
+Application-specific metrics (e.g., DB queries per second)
+
+6. How to deploy Netdata on a VM?
+Install Docker on the VM.
+Run the Netdata container with necessary capabilities (SYS_PTRACE, Docker socket).
+Access the dashboard from host using http://<VM-IP>:19999.
+
+7. How does Netdata alerting work?
+Netdata uses predefined or custom alarms on metrics. When a metric exceeds thresholds, it triggers alerts via email, Slack, Discord, or other notification channels.
+
+8. What is a dashboard in this context?
+A dashboard is a web-based UI that visualizes real-time metrics of the system, applications, and containers.
