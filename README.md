@@ -132,10 +132,9 @@ Scroll down to view live stats for **Docker Containers** alongside system metric
 <img width="1890" height="776" alt="Screenshot 2025-10-02 130300" src="https://github.com/user-attachments/assets/1a6fc92b-4b59-48ab-b614-12e7164ad84d" />
 
 ---
-
-✅ Netdata Interview Questions & Answers
-
 ---
+✅ Netdata Interview Questions & Answers
+```
 1. What does Netdata monitor?
 ➜ System metrics (CPU, memory, disk, network, processes)
 ➜ Application metrics (MySQL, Nginx, Docker containers, etc.)
@@ -169,4 +168,5 @@ Scroll down to view live stats for **Docker Containers** alongside system metric
 
 8. What is a dashboard in this context?
 ➜ A web-based UI showing real-time metrics of the system, applications, and containers
+```
 ---
