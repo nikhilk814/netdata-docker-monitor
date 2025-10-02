@@ -2,7 +2,7 @@
 Netdata Docker setup
 
 ### Netdata Docker Monitoring
-Monitor your system and application performance in real time using **Netdata** with Docker.
+### Monitor your system and application performance in real time using **Netdata** with Docker.
 ---
 ### Prerequisites
 
