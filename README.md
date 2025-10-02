@@ -133,40 +133,40 @@ Scroll down to view live stats for **Docker Containers** alongside system metric
 
 ---
 ---
-✅ Netdata Interview Questions & Answers
+Netdata Interview Questions & Answers
 ```
 1. What does Netdata monitor?
-➜ System metrics (CPU, memory, disk, network, processes)
-➜ Application metrics (MySQL, Nginx, Docker containers, etc.)
+   System metrics (CPU, memory, disk, network, processes)
+   Application metrics (MySQL, Nginx, Docker containers, etc.)
 
 2. How do you view real-time metrics?
-➜ Through the Netdata web dashboard on port 19999
+   Through the Netdata web dashboard on port 19999
 
 3. What is a collector?
-➜ A module that gathers metrics from the system or applications
+   A module that gathers metrics from the system or applications
 
 4. How is Netdata different from Prometheus?
-➜ Netdata → real-time monitoring with dashboards
-➜ Prometheus → time-series database for long-term metrics and alerting
+   Netdata → real-time monitoring with dashboards
+   Prometheus → time-series database for long-term metrics and alerting
 
 5. What are some performance KPIs to watch?
-➜ CPU usage
-➜ Memory usage
-➜ Disk I/O
-➜ Network traffic
-➜ Process load
-➜ Docker container stats
-➜ Application-specific metrics (e.g., DB queries/sec)
+   CPU usage
+   Memory usage
+   Disk I/O
+   Network traffic
+   Process load
+   Docker container stats
+   Application-specific metrics (e.g., DB queries/sec)
 
 6. How to deploy Netdata on a VM?
-➜ Install Docker on the VM
-➜ Run Netdata container with necessary capabilities (SYS_PTRACE, Docker socket)
-➜ Access dashboard: http://<VM-IP>:19999
+   Install Docker on the VM
+   Run Netdata container with necessary capabilities (SYS_PTRACE, Docker socket)
+   Access dashboard: http://<VM-IP>:19999
 
 7. How does Netdata alerting work?
-➜ Predefined or custom alarms trigger notifications via email, Slack, Discord, etc.
+   Predefined or custom alarms trigger notifications via email, Slack, Discord, etc.
 
 8. What is a dashboard in this context?
-➜ A web-based UI showing real-time metrics of the system, applications, and containers
+   A web-based UI showing real-time metrics of the system, applications, and containers
 ```
 ---
